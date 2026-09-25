@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Abhay Bhatnagar | Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <canvas id="particles"></canvas>
+    <div class="grid-background"></div>
+
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-dot"></div>
+
+   <!-- Navigation -->
+<header class="navbar">
+
+    <div class="logo">
+        AB<span>.</span>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- Navigation Links -->
+    <nav id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-button">
+        Let's Talk
+    </a>
+
+</header>
+
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <div class="status reveal">
+                <span></span>
+                AVAILABLE FOR OPPORTUNITIES
+            </div>
+
+            <h1 class="hero-title reveal">
+                Hi, I'm
+                <span>Abhay</span>
+                <br>
+                Bhatnagar.
+            </h1>
+
+            <div class="typing-container reveal">
+                <span>I'M A </span>
+                <span id="typing"></span>
+                <span class="typing-cursor">|</span>
+            </div>
+
+            <p class="hero-description reveal">
+                MCA (Integrated) student and aspiring developer passionate
+                about data analysis, full-stack development and building
+                useful digital experiences.
+            </p>
+
+            <div class="hero-buttons">
+
+    <a href="#projects" class="primary-button">
+        Explore Projects
+        <span>↗</span>
+    </a>
+
+    <a href="#about" class="secondary-button">
+        More About Me
+    </a>
+
+</div>
+
+<div class="social-buttons">
+
+    <a href="https://github.com/YOUR-GITHUB-USERNAME"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="social-button">
+
+        <span class="social-icon">GH</span>
+        GitHub ↗
+
+    </a>
+
+
+    <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="social-button">
+
+        <span class="social-icon">in</span>
+        LinkedIn ↗
+
+    </a>
+
+</div>
+
+            <div class="hero-stats reveal">
+
+                <div>
+                    <strong>3rd</strong>
+                    <small>YEAR MCA</small>
+                </div>
+
+                <div>
+                    <strong>6+</strong>
+                    <small>MONTHS INTERNSHIP</small>
+                </div>
+
+                <div>
+                    <strong>5+</strong>
+                    <small>TECHNOLOGIES</small>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Animated Orb -->
+
+        <div class="hero-visual">
+
+            <div class="orb">
+
+                <div class="orb-ring ring-1"></div>
+                <div class="orb-ring ring-2"></div>
+                <div class="orb-ring ring-3"></div>
+
+                <div class="orb-core">
+                    <span>AB</span>
+                </div>
+
+                <div class="orbit orbit-1">
+                    <span>PY</span>
+                </div>
+
+                <div class="orbit orbit-2">
+                    <span>JS</span>
+                </div>
+
+                <div class="orbit orbit-3">
+                    <span>DB</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="scroll-indicator">
+            <span></span>
+            SCROLL TO EXPLORE
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section id="about" class="section">
+
+        <div class="section-heading reveal">
+
+            <span>01 — ABOUT</span>
+
+            <h2>
+                Building with
+                <em>purpose.</em>
+            </h2>
+
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-text reveal">
+
+                <p>
+                    I'm <strong>Abhay Bhatnagar</strong>, currently pursuing
+                    MCA (Integrated) from Dr. A.P.J. Abdul Kalam Technical
+                    University, Lucknow.
+                </p>
+
+                <p>
+                    I'm interested in combining programming, data and
+                    creative interfaces to build practical software
+                    solutions.
+                </p>
+
+                <p>
+                    During my internship at E-Gain, Agra, I worked as a
+                    Team Leader Intern and worked with a team of five
+                    members on live projects.
+                </p>
+
+            </div>
+
+
+            <div class="about-card reveal">
+
+                <div class="card-number">01</div>
+
+                <h3>My Approach</h3>
+
+                <p>
+                    Learn → Build → Experiment → Improve
+                </p>
+
+                <div class="card-line"></div>
+
+                <span>
+                    Always curious. Always building.
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="section skills-section">
+
+        <div class="section-heading reveal">
+
+            <span>02 — SKILLS</span>
+
+            <h2>
+                My technical
+                <em>toolbox.</em>
+            </h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">PY</div>
+                <h3>Python</h3>
+                <p>Programming & Data</p>
+                <div class="skill-bar">
+                    <span style="width: 85%"></span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">DJ</div>
+                <h3>Django</h3>
+                <p>Web Development</p>
+                <div class="skill-bar">
+                    <span style="width: 70%"></span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">DB</div>
+                <h3>MySQL</h3>
+                <p>Database</p>
+                <div class="skill-bar">
+                    <span style="width: 80%"></span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">MG</div>
+                <h3>MongoDB</h3>
+                <p>Database</p>
+                <div class="skill-bar">
+                    <span style="width: 65%"></span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">BI</div>
+                <h3>Power BI</h3>
+                <p>Data Visualization</p>
+                <div class="skill-bar">
+                    <span style="width: 85%"></span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">TB</div>
+                <h3>Tableau</h3>
+                <p>Analytics</p>
+                <div class="skill-bar">
+                    <span style="width: 80%"></span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+
+    <section id="projects" class="section">
+
+        <div class="section-heading reveal">
+
+            <span>03 — PROJECTS</span>
+
+            <h2>
+                Things I've
+                <em>built.</em>
+            </h2>
+
+        </div>
+
+
+        <div class="projects-container">
+
+
+            <article class="project-card reveal">
+
+                <div class="project-number">01</div>
+
+                <div class="project-info">
+
+                    <span>PYTHON • MYSQL</span>
+
+                    <h3>Voting System</h3>
+
+                    <p>
+                        A voting management system featuring
+                        authentication, admin controls and vote tracking.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>MySQL</span>
+                        <span>Authentication</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project ↗
+                    </a>
+
+                </div>
+
+                <div class="project-visual voting">
+                    <div class="visual-screen">
+                        <div class="mini-bar"></div>
+                        <div class="mini-bar"></div>
+                        <div class="mini-bar"></div>
+                    </div>
+                </div>
+
+            </article>
+
+
+            <article class="project-card reveal">
+
+                <div class="project-number">02</div>
+
+                <div class="project-info">
+
+                    <span>POWER BI • TABLEAU • EXCEL</span>
+
+                    <h3>Data Analytics</h3>
+
+                    <p>
+                        Data analysis and interactive visualization
+                        project designed to extract useful business insights.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Power BI</span>
+                        <span>Tableau</span>
+                        <span>Excel</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project ↗
+                    </a>
+
+                </div>
+
+                <div class="project-visual analytics">
+
+                    <div class="chart">
+
+                        <span style="height:35%"></span>
+                        <span style="height:55%"></span>
+                        <span style="height:45%"></span>
+                        <span style="height:75%"></span>
+                        <span style="height:65%"></span>
+                        <span style="height:90%"></span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="project-card project-coming reveal">
+
+                <div>
+
+                    <span>NEXT PROJECT</span>
+
+                    <h3>Smart City Analytics</h3>
+
+                    <p>
+                        An upcoming data visualization project exploring
+                        urban datasets and interactive analytics.
+                    </p>
+
+                </div>
+
+                <div class="coming-number">
+                    03
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- EXPERIENCE -->
+
+    <section id="experience" class="section">
+
+        <div class="section-heading reveal">
+
+            <span>04 — EXPERIENCE</span>
+
+            <h2>
+                Where I've
+                <em>worked.</em>
+            </h2>
+
+        </div>
+
+
+        <div class="experience-card reveal">
+
+            <div class="experience-date">
+                6 MONTHS
+            </div>
+
+            <div class="experience-main">
+
+                <span>INTERNSHIP</span>
+
+                <h3>E-Gain, Agra</h3>
+
+                <h4>Team Leader Intern</h4>
+
+                <p>
+                    Led a team of five members during live project
+                    development and deployment. Managed project planning,
+                    task allocation and reporting to senior supervisors.
+                </p>
+
+            </div>
+
+            <div class="experience-badge">
+                TEAM<br>LEAD
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="contact-section">
+
+        <div class="contact-inner reveal">
+
+            <span>05 — CONTACT</span>
+
+            <h2>
+                Let's build
+                <em>something.</em>
+            </h2>
+
+            <p>
+                Have a project, opportunity or idea?
+                Let's connect.
+            </p>
+
+            <a href="mailto:abhaybhatnagar18@gmail.com"
+               class="email-button">
+
+                abhaybhatnagar18@gmail.com
+                <span>↗</span>
+
+            </a>
+
+            <div class="contact-details">
+
+    <span>Delhi, India</span>
+
+    <span>+91 9457248535</span>
+
+</div>
+
+<div class="contact-socials">
+
+    <a href="https://github.com/amortal030-design"
+       target="_blank"
+       rel="noopener noreferrer">
+        GitHub ↗
+    </a>
+
+    <a href="https://www.linkedin.com/in/abhay-bhatnagar-b382a9306/"
+       target="_blank"
+       rel="noopener noreferrer">
+        LinkedIn ↗
+    </a>
+
+</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div>
+            © 2026 Abhay Bhatnagar
+        </div>
+
+        <div>
+            MCA (Integrated) • AKTU
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
